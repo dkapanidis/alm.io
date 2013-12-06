@@ -206,13 +206,22 @@ h2.section_header {
 }
 
 /*******/
-.on-light {
+.bg1 {
     background-position: 50% 50%;
     text-decoration: none solid rgb(51, 51, 51);
     text-rendering: optimizelegibility;
     background: rgb(236, 236, 235) url(../images/bg1.jpg) no-repeat scroll 50% 50% / cover padding-box border-box;
     overflow: hidden;
 }
+
+.on-light {
+    background-position: 50% 50%;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-rendering: optimizelegibility;
+    background: rgb(236, 236, 235) url(../images/bg3.jpg) no-repeat scroll 50% 50% / cover padding-box border-box;
+    overflow: hidden;
+}
+
 
 .description {
     color: rgb(54, 58, 58);
