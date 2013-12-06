@@ -21,6 +21,8 @@ module.exports = function (grunt) {
         dist: 'dist'
     };
 
+    grunt.loadNpmTasks('grunt-build-control');
+
     grunt.initConfig({
         yeoman: yeomanConfig,
         watch: {
@@ -44,6 +46,26 @@ module.exports = function (grunt) {
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
                 ],
                 tasks: ['livereload']
+            }
+        },
+        buildcontrol: {
+            options: {
+                dir: 'dist',
+                commit: true,
+                push: true,
+                message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+            },
+            pages: {
+                options: {
+                    remote: 'git@github.com:spiddy/alm.io.git',
+                    branch: 'gh-pages'
+                }
+            },
+            local: {
+                options: {
+                    remote: '../',
+                    branch: 'build'
+                }
             }
         },
         connect: {
@@ -281,6 +303,10 @@ module.exports = function (grunt) {
     });
 
     grunt.renameTask('regarde', 'watch');
+
+    grunt.registerTask('build', [
+        // Collection of tasks that build code to the 'dist' directory...
+    ]);
 
     grunt.registerTask('server', function (target) {
         if (target === 'dist') {
