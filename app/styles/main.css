@@ -202,7 +202,8 @@ h2.section_header {
 .row-content {
 }
 
-#h1-row-content {
+
+.row-content h1 {
     text-align: center;
     text-decoration: none solid rgb(35, 45, 51);
     text-rendering: optimizelegibility;
