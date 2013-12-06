@@ -1,7 +1,5 @@
-$iconSpritePath: "../images/glyphicons-halflings.png";
-$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
-
-/**@import 'sass-bootstrap/lib/bootstrap';**/
+$iconSpritePath: "images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "images/glyphicons-halflings-white.png";
 
 #hero {
     padding-top: 50px;
@@ -30,7 +28,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 }
 
 body{
-	background: #DDDCE2 url(/images/content_bg.jpg) repeat left top;
+	background: #DDDCE2 url(images/content_bg.jpg) repeat left top;
 	font-size: 14px;
 }
 
@@ -119,7 +117,7 @@ h2.section_header {
 	position: relative;
 }
 #pricing .price_wrapper.regular .header {
-	background: url('/images/chart1.png') 0 0 no-repeat;
+	background: url('../images/chart1.png') 0 0 no-repeat;
 }
 /*
 #pricing .price_wrapper.pro {
@@ -128,7 +126,7 @@ h2.section_header {
 }
 */
 #pricing .price_wrapper.pro .header {
-	background: url('/images/chart2.png') 0 0 no-repeat;
+	background: url('../images/chart2.png') 0 0 no-repeat;
 }
 #pricing .price_wrapper section .btn {
 	left: 35%;
@@ -191,7 +189,7 @@ h2.section_header {
 /* Row Bar */
 
 .row-tools {
-    background: rgba(0, 0, 0, 0) url(/images/down-red.png) no-repeat scroll 50% -1px / auto padding-box border-box;
+    background: rgba(0, 0, 0, 0) url(../images/down-red.png) no-repeat scroll 50% -1px / auto padding-box border-box;
     border-top: 16px solid rgb(255, 69, 81);
     border-right: 0px solid rgb(255, 69, 81);
     border-bottom: 0px solid rgb(255, 69, 81);
@@ -212,7 +210,7 @@ h2.section_header {
     background-position: 50% 50%;
     text-decoration: none solid rgb(51, 51, 51);
     text-rendering: optimizelegibility;
-    background: rgb(236, 236, 235) url(/images/bg1.jpg) no-repeat scroll 50% 50% / cover padding-box border-box;
+    background: rgb(236, 236, 235) url(../images/bg1.jpg) no-repeat scroll 50% 50% / cover padding-box border-box;
     overflow: hidden;
 }
 
