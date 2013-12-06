@@ -18,7 +18,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */
 	height: auto;
 	padding-bottom: 50px;
-	border-bottom: 1px solid #d1d2d4;
+	border-bottom: 1px solid `#d1d2d4;
 	box-shadow: 0px 3px 8px 0px #e7e7e7;
 }
 
@@ -187,3 +187,46 @@ h2.section_header {
 		box-shadow: 0px 0px 5px 4px #E8E8E8;
 	}
 }
+
+
+/* Row Bar */
+
+#row-tools {
+    background: rgba(0, 0, 0, 0) url(/images/down-red.png) no-repeat scroll 50% -1px / auto padding-box border-box;
+    border-top: 16px solid rgb(255, 69, 81);
+    border-right: 0px solid rgb(255, 69, 81);
+    border-bottom: 0px solid rgb(255, 69, 81);
+    border-left: 0px solid rgb(255, 69, 81);
+}
+
+#row-content {
+}
+
+#h1-row-content {
+    text-align: center;
+    text-decoration: none solid rgb(35, 45, 51);
+    text-rendering: optimizelegibility;
+    word-break: break-word;
+    border: 0px solid rgb(224, 224, 224);
+    font: normal normal bold 64px/85px Lato, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 85.76000213623047px 0px 42.880001068115234px;
+    outline: rgb(35, 45, 51) solid 0px;
+}/*#H1_3*/
+
+#DIV_4 {
+    clear: both;
+    color: rgb(35, 45, 51);
+    cursor: default;
+    height: 42.4375px;
+    max-width: 736px;
+    text-align: center;
+    text-decoration: none solid rgb(35, 45, 51);
+    width: 736px;
+    word-break: break-word;
+    border: 0px solid rgb(224, 224, 224);
+    font: normal normal normal 16px/21px Lato, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0px 102.40625px;
+    outline: rgb(35, 45, 51) solid 0px;
+    padding: 0px 89.59375px 67.1875px;
+}/*#DIV_4*/
+
